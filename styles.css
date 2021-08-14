@@ -27,9 +27,11 @@ body {
   opacity: 0.1;
   margin:2px;
   box-shadow: 0 0 2px #000;
-  transition:5s ease;
+  transition: all 30s ease-in-out 0s;
 
 }
 .square:hover{
-  transition-duration: 0s;
+  transition-duration: 0.0s;
+  transform: scale(1.5 , 1.5) rotate(0.5turn);
+  
 }
