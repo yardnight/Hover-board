@@ -21,11 +21,11 @@ body {
 
 }
 .square{
-  width: 10px;
-  height: 10px;
+  width: 5px;
+  height: 5px;
   background: rgb(216, 216, 216);
   opacity: 0.1;
-  margin:2px;
+  margin:1px;
   box-shadow: 0 0 2px #000;
   transition: all 30s ease-in-out 0s;
 
