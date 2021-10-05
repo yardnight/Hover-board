@@ -17,8 +17,27 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap:wrap; 
-  max-width: 720px;
+  min-width: 320px;
+}
 
+@media screen and (min-width: 319.98px) {
+  .container{ max-width: 320px;}
+}
+@media screen and (min-width: 424.98px) {
+  .container{ max-width: 424.98px;}
+}
+@media screen and (min-width: 666.98px) {
+  .container{ max-width: 600px;}
+}
+
+@media screen and (min-width: 767.98px) {
+  .container{ max-width: 720px;}
+}
+@media screen and (min-width: 1023.98px) {
+  .container{ max-width: 800px; } 
+}
+@media screen and (min-width: 1440px) {
+  .container{ max-width: 1200px;}  
 }
 .square{
   width: 15px;
@@ -31,7 +50,7 @@ body {
   cursor: pointer;
 
 }
-.square:hover{
+.square:hover, .square:active{
   transition-duration: 0.0s;
   transform: scale(1.1 , 1.1);
   cursor: pointer;

@@ -1,10 +1,9 @@
 const board = document.querySelector('#board')
-const SQUARES_NUMBER = 1596
+const SQUARES_NUMBER = 1598
 const colors = ['#9b5de5','#f15bb5','#fee440','#00bbf9','#00f5d4','#fff']
 for (let i = 0; i < SQUARES_NUMBER; i++){
     const square = document.createElement('div')
     square.classList.add('square')
-    square.setAttribute('onclick', " ")
 
     square.addEventListener('mouseover', () => {
         setColor(square)
