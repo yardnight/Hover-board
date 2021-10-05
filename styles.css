@@ -28,10 +28,11 @@ body {
   margin:1px;
   box-shadow: 0 0 2px #000;
   transition: all 30s ease-in-out 0s;
+  cursor: pointer;
 
 }
 .square:hover{
   transition-duration: 0.0s;
   transform: scale(1.1 , 1.1);
-  
+  cursor: pointer;
 }
